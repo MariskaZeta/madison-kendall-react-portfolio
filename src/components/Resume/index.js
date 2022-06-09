@@ -1,9 +1,9 @@
 import React from "react";
 
-function Project() {
+function Resume() {
   return (
 
   );
 }
 
-export default Project;
+export default Resume;
