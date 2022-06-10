@@ -1,16 +1,21 @@
 import React from "react";
 import Navigation from "../Navigation";
 
-function Header(){
+function Header(props){
+  const { currentTab, setCurrentTab } = props;
+  
   return (
    <header>
-       <div>
-         <h1>Madison Kendall's React Portfolio</h1>
-       </div>
-       <div>
-         <Navigation></Navigation>
-       </div>
-    </header>
+         <div>
+             <h1>Madison Kendall's React Portfolio</h1>
+         </div>
+         <div>
+               <Navigation
+                    currentTab={currentTab}
+                    setCurrentTab={setCurrentTab}
+                ></Navigation>
+         </div>
+   </header>
   );
 }
 
