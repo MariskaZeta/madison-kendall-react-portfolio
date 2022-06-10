@@ -8,8 +8,9 @@ function About() {
        </div>
        <div>
           <img
-             src={require("../../assets/images/")}
+             src={require("../../assets/images/Madison.JPG")}
              alt="about-me-photo"
+             className="photo"
           />
       </div>
       <div>

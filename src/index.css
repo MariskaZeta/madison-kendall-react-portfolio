@@ -1,1 +1,7 @@
-
+.photo {
+  width: auto;
+  height: auto;
+  max-width: 480px;
+  max-height: 640px;
+  margin-bottom: 50px;
+}
