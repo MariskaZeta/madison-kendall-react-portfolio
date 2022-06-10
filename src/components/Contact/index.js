@@ -34,9 +34,17 @@ function Contact() {
   }
 }
 
-function handleSubmit(e) {
-  e.preventDefault();
-  console.log(formState);
+function handleBlank(e) {
+  if (e.target.name === "Name" || e.target.name === "Message") {
+    if (!e.target.value.length) {
+      setErrorMessage(`${e.target.name} is required.`);
+    } else {
+      setErrorMessage("");
+    }
+  }
+  if (!errorMessage) {
+    setFormState({ ...formState, [e.target.name]: e.target.value });
+  }
 }
 
   return (
@@ -52,7 +60,7 @@ function handleSubmit(e) {
                    <input
                        type="text"
                        defaultValue={name}
-                       onBlur={handleChange}
+                       onBlur={handleBlank}
                        name="Name"
                    />
                </div>
@@ -67,6 +75,15 @@ function handleSubmit(e) {
                    />
                </div>
                <div>
+                   <label htmlFor="Message">Message:</label>
+                   <br>
+                   <textarea
+                       name="Message"
+                       defaultValue={message}
+                       onBlur={handleBlank}
+                       rows="5"
+                  />
+               </div>
                {errorMessage && (
                      <div>
                          <p className="error-text">{errorMessage}</p>
