@@ -56,7 +56,7 @@ function handleBlank(e) {
            <form id="contact-form">
                <div>
                    <label htmlFor="Name">Name:</label>
-                   <br>
+                   <br></br>
                    <input
                        type="text"
                        defaultValue={name}
@@ -66,7 +66,7 @@ function handleBlank(e) {
                </div>
                <div>
                    <label htmlFor="email">Email address:</label>
-                   <br>
+                   <br></br>
                    <input
                        type="email"
                        defaultValue={email}
@@ -76,7 +76,7 @@ function handleBlank(e) {
                </div>
                <div>
                    <label htmlFor="Message">Message:</label>
-                   <br>
+                   <br></br>
                    <textarea
                        name="Message"
                        defaultValue={message}

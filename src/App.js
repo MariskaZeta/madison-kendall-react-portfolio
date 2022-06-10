@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -8,14 +8,35 @@ import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 
 function App() {
+  const [currentTab, setCurrentTab] = useState("about");
+
+  // check to see which tab is selected and then generate the appropriate tab.
+  const renderTab = () => {
+    switch (currentTab) {
+      case "about":
+      return <About />
+      case "portfolio":
+      return <Portfolio />
+      case "contact":
+      return <Contact />
+      case "resume":
+      return <Resume />
+      default:
+      return null;
+    }
+  };
+
   return (
     <div>
-       <div className="mobile-header">
-         <Header></Header>
-       </div>
-       <div>
-         <Footer></Footer>
-       </div>
+         <div className="mobile-header">
+             <Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
+         </div>
+         <div>
+             <main>{renderTab()}</main>
+         </div>
+         <div>
+             <Footer></Footer>
+         </div>
     </div>
   );
 }
