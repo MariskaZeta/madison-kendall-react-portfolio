@@ -36,7 +36,7 @@ function Footer() {
                 rel="noopener noreferrer"
             >
                 <img
-                    src={require("../../assets/logos/instagram-logo.jpg")}
+                    src={require("../../assets/logos/instalogo.jpg")}
                     alt="Instagram logo"
                     className="logo"
                 ></img>
