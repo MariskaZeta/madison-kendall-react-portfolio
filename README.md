@@ -18,7 +18,7 @@ Here is the link to the GitHub project page URL:
 Here is the link to clone for the GitHub repository:
 
 ## Technologies
-* React
+* React.js
 * JavaScript
 * CSS
 * HTML
