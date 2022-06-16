@@ -6,8 +6,8 @@ function Portfolio() {
   const projects = [
     {
       name: "It Takes a City",
-      description: "This application was created to..",
-      image: ,
+      description: "An application that provides information for people in need of resources (e.g. food, shelters, etc.).",
+      image:"ItTakesACity-Screenshot2.png",
       technologies: [
         "HTML/CSS",
         "JavaScript",
@@ -19,12 +19,12 @@ function Portfolio() {
         "EJS"
       ],
       github: "https://github.com/cwarmbrunn/it-takes-a-city",
-      deployed: "https://it-takes-a-city.herokuapp.com/"
+      deployed: "https://it-takes-a-city.herokuapp.com/",
     },
     {
       name: "Social Network App Pro",
       description: "This application is an API that uses MongoDB and Mongoose to perform CRUD operations for a social network.",
-      image: ,
+      image: "ItTakesACity-Screenshot2.png",
       technologies: [
         "JavaScript",
         "Express.js",
@@ -35,12 +35,12 @@ function Portfolio() {
         "Insomnia"
       ],
       github: "https://github.com/MariskaZeta/social-network-app-pro",
-      deployed:
+      deployed: "https://it-takes-a-city.herokuapp.com/",
     },
     {
       name: "Tech Blog Pro",
       description: "This application is a website used for tech bloggers to write and read about technical concepts, recent advancements, and new technologies.",
-      image: ,
+      image: "ItTakesACity-Screenshot2.png",
       technologies: [
         "HTML/CSS",
         "JavaScript",
@@ -55,15 +55,16 @@ function Portfolio() {
         "dotenv package"
       ],
       github: "https://github.com/MariskaZeta/tech-blog-pro",
-      deployed: "https://tech-blog-pro-mvc.herokuapp.com/"
+      deployed: "https://tech-blog-pro-mvc.herokuapp.com/",
     }
   ];
-  
+
   return (
     <section>
         <div className="center">
             <h1 className="page-header">My Portfolio</h1>
         </div>
+        <div>
             <ul className="flex-row mobile-row">
                 <li className="padding">
                      <Project projects={projects[0]}></Project>
