@@ -22,40 +22,43 @@ function Portfolio() {
       deployed: "https://it-takes-a-city.herokuapp.com/"
     },
     {
-      name: "It Takes a City",
-      description: "This application was created to..",
+      name: "Social Network App Pro",
+      description: "This application is an API that uses MongoDB and Mongoose to perform CRUD operations for a social network.",
       image: ,
       technologies: [
-        "HTML/CSS",
         "JavaScript",
         "Express.js",
-        "MySQL2",
-        "dotenv",
-        "Tailwind",
-        "Auth0",
-        "EJS"
+        "MongoDB",
+        "Mongoose",
+        "npm",
+        "Node.js",
+        "Insomnia"
       ],
-      github: "https://github.com/cwarmbrunn/it-takes-a-city",
-      deployed: "https://it-takes-a-city.herokuapp.com/"
+      github: "https://github.com/MariskaZeta/social-network-app-pro",
+      deployed:
     },
     {
-      name: "It Takes a City",
-      description: "This application was created to..",
+      name: "Tech Blog Pro",
+      description: "This application is a website used for tech bloggers to write and read about technical concepts, recent advancements, and new technologies.",
       image: ,
       technologies: [
         "HTML/CSS",
         "JavaScript",
-        "Express.js",
-        "MySQL2",
-        "dotenv",
-        "Tailwind",
-        "Auth0",
-        "EJS"
+        "Node.js",
+        "MySQL2 package",
+        "Sequelize package",
+        "Express",
+        "Express-handlebars package",
+        "bcrypt package",
+        "express-session package",
+        "connect-session package",
+        "dotenv package"
       ],
-      github: "https://github.com/cwarmbrunn/it-takes-a-city",
-      deployed: "https://it-takes-a-city.herokuapp.com/"
-    },
-  ]
+      github: "https://github.com/MariskaZeta/tech-blog-pro",
+      deployed: "https://tech-blog-pro-mvc.herokuapp.com/"
+    }
+  ];
+  
   return (
     <section>
         <div className="center">
