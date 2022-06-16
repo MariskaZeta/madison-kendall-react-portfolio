@@ -23,24 +23,24 @@ function Portfolio() {
       deployed: "https://it-takes-a-city.herokuapp.com/",
     },
     {
-      name: "Social Network App Pro",
-      description: "This application is an API that uses MongoDB and Mongoose to perform CRUD operations for a social network.",
-      image: "ItTakesACity-Screenshot2.png",
+      name: "What's For Dinner",
+      description: "A user friendly application that allows users to find out what to eat and drink for dinner.",
+      image: "whats-for-dinner-screenshot.png",
       technologies: [
         "JavaScript",
-        "Express.js",
-        "MongoDB",
-        "Mongoose",
-        "npm",
-        "Node.js",
-        "Insomnia"
+        "HTML/CSS",
+        "Edamam API",
+        "The Cocktail DB API",
+        "CSS Framework - Foundation by Zurb",
+        "Local Storage to track a searched allergy"
       ],
-      github: "https://github.com/MariskaZeta/social-network-app-pro",
+      github: "https://github.com/marathonsandsushi/whatsForDinner",
+      deployed: "https://marathonsandsushi.github.io/whatsForDinner/",
     },
     {
       name: "Tech Blog Pro",
       description: "This application is a website used for tech bloggers to write and read about technical concepts, recent advancements, and new technologies.",
-      image: "ItTakesACity-Screenshot2.png",
+      image: "tech-blog-pro-screenshot.png",
       technologies: [
         "HTML/CSS",
         "JavaScript",
@@ -59,24 +59,20 @@ function Portfolio() {
       deployed: "https://tech-blog-pro-mvc.herokuapp.com/",
     },
     {
-      name: "e-commerce company back-end",
-      description: "This application is the back-end of an e-commerce site. Using an Express.js API that uses Sequelize to interact with the data inside of the MySQL database.",
-      image: "ItTakesACity-Screenshot2.png",
+      name: "Password Generator",
+      description: "This is a web-application which creates a randomly generated password.",
+      image: "password-gen-screenshot.png",
       technologies: [
-        "Express",
-        "MySQL2",
-        "Sequelize",
-        "Node.js",
-        "Insomnia",
-        "dotenv",
-        "Npm"
+        "HTML/CSS",
+        "JavaScript"
       ],
-      github: "https://github.com/MariskaZeta/e-commerce-company-back-end",
+      github: "https://github.com/marathonsandsushi/password-generator",
+      deployed: "https://marathonsandsushi.github.io/password-generator/",
     },
     {
       name: "Note Taker Pro",
       description: "This application can be used to write, save, and delete notes. It uses an Express.js back end and it saves and retrieves note data from a JSON file.",
-      image: "ItTakesACity-Screenshot2.png",
+      image: "note-taker-pro-screenshot.png",
       technologies: [
         "HTML/CSS",
         "JavaScript",
@@ -89,17 +85,17 @@ function Portfolio() {
       deployed: "https://thawing-forest-88059.herokuapp.com/",
     },
     {
-      name: "Auto Dev Team Profiler",
-      description: "This application is a back end application using Node.js. It uses the inquirer npm package to get the user input to dynamically create a team profile. Users will go through questions about the type of employee that will be added to the team.",
-      image: "ItTakesACity-Screenshot2.png",
+      name: "Weather Forecast Dashboard",
+      description: "Users can search for the weather forecast for a city. It will show the weather for the current and for the next upcoming five days.",
+      image: "weather-forecast-dashboard-screenshot.png",
       technologies: [
         "HTML/CSS",
         "JavaScript",
-        "Node.js",
-        "Jest",
-        "Inquirer npm package"
+        "Bootstrap",
+        "jQuery"
       ],
-      github: "https://github.com/MariskaZeta/auto-dev-team-profiler",
+      github: "https://github.com/marathonsandsushi/weather-forecast-dashboard",
+      deployed: "https://marathonsandsushi.github.io/weather-forecast-dashboard/",
     },
   ];
 
