@@ -29,7 +29,7 @@ function Resume() {
                      <li>Progressive Web Applications (PWA) </li>
                  </ol>
                <br></br>
-                 <h5>Database Proficiencies<h5>
+                 <h5>Database Proficiencies</h5>
                  <ol>
                      <li>MySQL</li>
                      <li>Sequelize</li>
