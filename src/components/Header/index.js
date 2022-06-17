@@ -3,11 +3,11 @@ import Navigation from "../Navigation";
 
 function Header(props){
   const { currentTab, setCurrentTab } = props;
-  
+
   return (
    <header>
          <div>
-             <h1>Madison Kendall's React Portfolio</h1>
+           <h1><a href="about" style={{textDecoration: 'none'}}> Madison Kendall's React Portfolio </a></h1>
          </div>
          <div>
                <Navigation
