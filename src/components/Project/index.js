@@ -9,23 +9,8 @@ function Project(props) {
   const name = currentProject.name;
   const description = currentProject.description;
   const image = currentProject.image;
-  const techs = currentProject.technologies;
   const appLink = currentProject.deployed;
   const gitLink = currentProject.github;
-
-  // parse the information from the array and create a list
-  function getTechs(techArray) {
-    let techList = "";
-
-    for (let i = 0; i < techArray.length; i++) {
-      if (i === techArray.length - 1) {
-        techList += techArray[i];
-      } else {
-        techList += techArray[i] + ", ";
-      }
-    }
-    return techList;
-  }
 
   return (
         <Card style={{ width: "18rem" }}>
@@ -35,12 +20,10 @@ function Project(props) {
                 className="card-image"
             />
             <div className="center">
-                <Card.Body>
+                <Card.Body className="card-body">
                     <Card.Title className="card-title">{name}</Card.Title>
                     <Card.Text className="card-text">{description}</Card.Text>
-                    <Card.Subtitle className="card-subtitle">Technologies Used:</Card.Subtitle>
-                    <Card.Text className="card-techs">{getTechs(techs)}</Card.Text>
-                    
+
                     <Card.Link href={appLink} target="_blank" className="card-link">
                     {name} App
                     </Card.Link>

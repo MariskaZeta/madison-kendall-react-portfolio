@@ -16,8 +16,8 @@ function About() {
       <div>
          <p>
             Hi! Welcome to my portfolio!
-             I am a full stack web developer based in Denver, Colorado.
-             I love minimal design. I love running, singing, and golfing in my free time.
+             I am a full stack software engineer based in Denver, Colorado.
+             I love minimal design. I love running, singing, and playing golf in my free time.
          </p>
       </div>
     </section>

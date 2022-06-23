@@ -297,6 +297,7 @@ textarea {
 	max-height: 640px;
 	/* padding: 50px; */
 	margin-bottom: 50px;
+	border-radius: 100%;
 }
 
 .image {
@@ -321,6 +322,7 @@ textarea {
 .center {
 	display: flex;
 	justify-content: center;
+
 }
 
 .page-header {
@@ -354,12 +356,6 @@ textarea {
 .card-text {
 	font-size: 1.0rem;
 	height: 8rem;
-	color: var(--quinary);
-}
-
-.card-techs {
-	font-size: 1.0rem;
-	height: 4rem;
 	color: var(--quinary);
 }
 
