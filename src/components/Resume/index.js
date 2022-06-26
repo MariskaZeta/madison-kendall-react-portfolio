@@ -6,6 +6,11 @@ function Resume() {
             <div className="center">
                 <h1 className="page-header">My Resume</h1>
             </div>
+            <div className="bottom-spacing">
+                <a href={require("../../assets/files/Madison Kendall Resume.pdf")} download>
+                    <h4>Download my Resume</h4>
+                </a>
+            </div>
             <div>
                  <h5>Browser Based Technologies</h5>
                  <ol>
