@@ -4,7 +4,7 @@
 This is my professional portfolio created with React.js.
 
 ## Live URL
-Here is the link to the application deployment:
+Here is the link to the deployed application: https://mariskazeta.github.io/madison-kendall-react-portfolio/
 
 ## Table of Contents
 
