@@ -8,7 +8,7 @@ function About() {
        </div>
        <div className="center">
           <img
-             src={require("../../assets/images/Madison.JPG")}
+             src={require("../../assets/images/MadisonKendall.jpg")}
              alt="about-me-photo"
              className="photo"
           />
