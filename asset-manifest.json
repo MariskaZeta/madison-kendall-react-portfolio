@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/madison-kendall-react-portfolio/static/css/main.a3e0779a.css",
+    "main.js": "/madison-kendall-react-portfolio/static/js/main.70f89702.js",
+    "static/js/787.2785447c.chunk.js": "/madison-kendall-react-portfolio/static/js/787.2785447c.chunk.js",
+    "static/media/whats-for-dinner-screenshot.png": "/madison-kendall-react-portfolio/static/media/whats-for-dinner-screenshot.b5a0624fbf9fd05c7cbf.png",
+    "static/media/Madison.JPG": "/madison-kendall-react-portfolio/static/media/Madison.cac3c9d377701109e53a.JPG",
+    "static/media/tech-blog-pro-screenshot.png": "/madison-kendall-react-portfolio/static/media/tech-blog-pro-screenshot.2499ffa6aca79f9c38e9.png",
+    "static/media/ItTakesACity-Screenshot2.png": "/madison-kendall-react-portfolio/static/media/ItTakesACity-Screenshot2.d31c57b2dab06ea00ab3.png",
+    "static/media/note-taker-pro-screenshot.png": "/madison-kendall-react-portfolio/static/media/note-taker-pro-screenshot.fc5e9bce1deae6a67fd2.png",
+    "static/media/weather-forecast-dashboard-screenshot.png": "/madison-kendall-react-portfolio/static/media/weather-forecast-dashboard-screenshot.5d50ca31a1b707f6c539.png",
+    "static/media/MadisonKendall.jpg": "/madison-kendall-react-portfolio/static/media/MadisonKendall.f01f53c82e2d73053c71.jpg",
+    "static/media/password-gen-screenshot.png": "/madison-kendall-react-portfolio/static/media/password-gen-screenshot.e65cfa325c7e9c8210c6.png",
+    "static/media/MadisonKendallResume.pdf": "/madison-kendall-react-portfolio/static/media/MadisonKendallResume.3dec0540e1234eedb27e.pdf",
+    "index.html": "/madison-kendall-react-portfolio/index.html",
+    "main.a3e0779a.css.map": "/madison-kendall-react-portfolio/static/css/main.a3e0779a.css.map",
+    "main.70f89702.js.map": "/madison-kendall-react-portfolio/static/js/main.70f89702.js.map",
+    "787.2785447c.chunk.js.map": "/madison-kendall-react-portfolio/static/js/787.2785447c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3e0779a.css",
+    "static/js/main.70f89702.js"
+  ]
+}
