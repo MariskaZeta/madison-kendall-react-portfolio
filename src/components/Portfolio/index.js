@@ -5,11 +5,11 @@ function Portfolio() {
   // storing all the projects I've done in JSON objects
   const projects = [
     {
-      name: "It Takes A City",
+      name: "It Takes A City Too",
       description: "An application that provides information for people in need of resources (e.g. food, shelters, etc.).",
-      image:"ItTakesACity-Screenshot2.png",
-      github: "https://github.com/cwarmbrunn/it-takes-a-city",
-      deployed: "https://it-takes-a-city.herokuapp.com/",
+      image:"it-takes-a-city-too-screenshot.png",
+      github: "https://github.com/cwarmbrunn/it-takes-a-city-too",
+      deployed: "http://it-takes-a-city-to.herokuapp.com/",
     },
     {
       name: "What's For Dinner",
