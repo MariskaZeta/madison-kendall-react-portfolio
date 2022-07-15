@@ -9,7 +9,7 @@ function Portfolio() {
       description: "An application that provides information for people in need of resources (e.g. food, shelters, etc.).",
       image:"it-takes-a-city-too-screenshot.png",
       github: "https://github.com/cwarmbrunn/it-takes-a-city-too",
-      deployed: "http://it-takes-a-city-to.herokuapp.com/",
+      deployed: "https://it-takes-a-city-to.herokuapp.com/",
     },
     {
       name: "What's For Dinner",
