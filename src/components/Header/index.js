@@ -7,7 +7,7 @@ function Header(props){
   return (
    <header>
          <div>
-           <h1><a href="about" style={{textDecoration: 'none'}}> Madison Kendall</a></h1>
+           <h1><a href="about" style={{textDecoration: 'none'}}> Madison Zeta Kendall</a></h1>
          </div>
          <div>
                <Navigation
