@@ -2,7 +2,7 @@ import React from "react";
 import Project from "../Project";
 
 function Portfolio() {
-  // storing all the projects I've done in JSON objects
+  // storing all of the projects I've done in JSON objects
   const projects = [
     {
       name: "It Takes A City Too",
